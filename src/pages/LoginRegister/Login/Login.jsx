@@ -1,13 +1,35 @@
+import { useContext } from "react";
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../../Provider/AuthProvider";
+import Swal from "sweetalert2";
 
 const Login = () => {
+
+    const { signIn } = useContext(AuthContext)
 
     // eslint-disable-next-line no-unused-vars
     const { register, handleSubmit, reset, formState: { errors } } = useForm();
 
+    const navigate = useNavigate();
+
     const onSubmit = data => {
         console.log(data)
+
+        signIn(data.email, data.password)
+        .then(res => {8
+            const user = res.user;
+            console.log(user);})
+
+            Swal.fire({
+                position: "top-end",
+                icon: "success",
+                title: "Your work has been saved",
+                showConfirmButton: false,
+                timer: 1500
+              })
+              navigate("/")
+        
     }
 
 
@@ -36,7 +58,7 @@ const Login = () => {
                         <button type="submit" className="w-full p-3 text-sm font-bold tracki uppercase rounded dark:bg-violet-400 dark:text-gray-900">Login</button>
                     </form>
                     <div className="mt-4">
-                        <p>Create an account <Link to='/register' className="text-blue-600 font-bold">Login</Link> </p>
+                        <p>Create an account <Link to='/register' className="text-blue-600 font-bold">Register</Link> </p>
                     </div>
                 </div>
 

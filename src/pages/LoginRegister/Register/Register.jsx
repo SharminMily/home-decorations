@@ -1,18 +1,32 @@
+/* eslint-disable no-unused-vars */
 
 // import { useForm } from "react-hook-form"
 
+import { useContext } from "react";
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../../Provider/AuthProvider";
+import Swal from "sweetalert2";
 
 const Register = () => {
-    // const { register, handleSubmit } = useForm();
-
-    // const onSubmit = (data) => console.log(data)
-    // eslint-disable-next-line no-unused-vars
-    const { register, handleSubmit, reset, formState: { errors } } = useForm();
+    const {createUser} = useContext(AuthContext)
+      const { register, handleSubmit, reset, formState: { errors } } = useForm();
+      const navigate = useNavigate()
 
     const onSubmit = data => {
-        console.log(data)
+        // console.log(data)
+        createUser(data.email, data.password)
+        .then(result =>{
+            Swal.fire({
+                position: "top-end",
+                icon: "success",
+                title: "Your work has been saved",
+                showConfirmButton: false,
+                timer: 1500
+              })
+              navigate("/")
+              .catch(error => console.log(error))
+        })
     }
 
     return (
@@ -37,7 +51,7 @@ const Register = () => {
                             <input {...register("email", { required: true })} type="email" placeholder="type your Email" className="w-full p-3 rounded " />
                         </div>
                         <div>
-                            <label className="text-sm text-black">Password</label>
+                            <label className="text-sm ">Password</label>
                             <input {...register("password", { required: true })} type="password" placeholder="type your Password" className="w-full text-black p-3 rounded " />
                         </div>
                         <div>

@@ -14,8 +14,8 @@ const Navbar = () => {
             </NavLink>
         </li>
         <li>
-            <NavLink to='/singleServices'>
-                <button>All Services</button>
+            <NavLink to='/singleService'>
+                <button>Single Service</button>
             </NavLink>
         </li>
 
@@ -36,7 +36,7 @@ const Navbar = () => {
                     <div className="items-center flex justify-center ">
 
                         <Link to='/register'>
-                            <button className="self-center md:px-8 px-2 md:py-3 py-2 font-semibold rounded dark:bg-violet-400 dark:text-gray-900">register</button>
+                            <button className="self-center md:px-8 px-2 md:py-3 py-2 font-semibold rounded dark:bg-violet-400 dark:text-gray-900">Register</button>
                         </Link>
                     </div>
                 </div>
