@@ -3,20 +3,20 @@ const Activities = () => {
     return (
         <div className="">
             <section className="">
-                <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
+                <div className="container max-w-xl py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
 
 
                     <div>
-                        <h2 className="text-3xl font-bold tracki text-center sm:text-5xl ">Aliquip definiebas ad est</h2>
-                        <p className="max-w-3xl mx-auto mt-4 text-xl text-center text-gray-700">Quando cetero his ne, eum admodum sapientem ut.</p>
+                        <h2 className="text-3xl font-bold tracki text-center sm:text-5xl "><span className="text-violet-800">Lighting Design</span> Workshops</h2>
+                        <p className="max-w-3xl mx-auto mt-4 text-xl text-center text-gray-500">Offer lighting design workshops where guests can experiment with different lighting techniques, learn about color theory, and create custom lighting effects to enhance the ambiance of the room.</p>
                     </div>
 
 
                     <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center dark:bg-gray-800 dark:text-gray-100 p-16">
 
                         <div>
-                            <h3 className="text-2xl font-bold tracki sm:text-3xl dark:text-gray-50">Ad vix debet docendi</h3>
-                            <p className="mt-3 text-lg dark:text-gray-400">Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod tacimates.</p>
+                            <h3 className="text-2xl font-bold tracki sm:text-3xl dark:text-gray-50">Interactive Wall Art</h3>
+                            <p className="mt-3 text-lg dark:text-gray-400">Install interactive wall art installations where guests can leave messages, doodle, or add their artistic touch throughout the event, fostering engagement and creativity.</p>
                             <div className="mt-12 space-y-12">
                                 <div className="flex">
                                     <div className="flex-shrink-0">
@@ -27,8 +27,8 @@ const Activities = () => {
                                         </div>
                                     </div>
                                     <div className="ml-4">
-                                        <h4 className="text-lg font-medium leadi dark:text-gray-50">Per ei quaeque sensibus</h4>
-                                        <p className="mt-2 dark:text-gray-400">Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.</p>
+                                        <h4 className="text-lg font-medium leadi dark:text-gray-50">Themed Workshops</h4>
+                                        <p className="mt-2 dark:text-gray-400"> Offer themed decoration workshops such as flower arranging, candle making, or terrarium building, providing guests with new skills and tangible keepsakes from the event.</p>
                                     </div>
                                 </div>
                                 <div className="flex">
@@ -40,8 +40,8 @@ const Activities = () => {
                                         </div>
                                     </div>
                                     <div className="ml-4">
-                                        <h4 className="text-lg font-medium leadi dark:text-gray-50">Cu imperdiet posidonium sed</h4>
-                                        <p className="mt-2 dark:text-gray-400">Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu nec. Nec ex maluisset inciderint, ex quis.</p>
+                                        <h4 className="text-lg font-medium leadi dark:text-gray-50">Live Art Demonstrations</h4>
+                                        <p className="mt-2 dark:text-gray-400">Invite artists to create live paintings or sculptures during the event, allowing guests to witness the creation process and potentially bid on or take home the finished pieces as unique mementos.</p>
                                     </div>
                                 </div>
                                 <div className="flex">
@@ -53,14 +53,14 @@ const Activities = () => {
                                         </div>
                                     </div>
                                     <div className="ml-4">
-                                        <h4 className="text-lg font-medium leadi dark:text-gray-50">Nulla omittam sadipscing mel ne</h4>
-                                        <p className="mt-2 dark:text-gray-400">At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix. Ut eos iudico quando soleat, nam modus.</p>
+                                        <h4 className="text-lg font-medium leadi dark:text-gray-50">Interactive Photo Booths</h4>
+                                        <p className="mt-2 dark:text-gray-400">Install interactive photo booths with themed props and backdrops, encouraging guests to capture fun and memorable moments while also adding to the overall decor aesthetic.</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div aria-hidden="true" className="mt-10 lg:mt-0">
-                            <img src="https://i.ibb.co/L62pSg6/IMG-20240304-125811.jpg" alt="" className="mx-auto w-full rounded-lg shadow-lg dark:bg-gray-500" />
+                        <div aria-hidden="true" className="mt-10 lg:mt-10">
+                            <img src="https://i.ibb.co/F8GsR7R/photo-1590959738506-3d0a0e7fc587-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-crop-faces.jpg" alt="" className="mx-auto w-full rounded-lg md:h-[500px] shadow-lg dark:bg-gray-500" />
                         </div>
                     </div>
 
@@ -69,8 +69,8 @@ const Activities = () => {
                     <div>
                         <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center  dark:bg-gray-800 dark:text-gray-100 p-16">
                             <div className="lg:col-start-2">
-                                <h3 className="text-2xl font-bold tracki sm:text-3xl dark:text-gray-50">Eam nibh gloriatur ex</h3>
-                                <p className="mt-3 text-lg dark:text-gray-400">Per odio fabellas consulatu cu. Utroque detracto mel ea, quo te latine theophrastus. Ea his tale nibh dissentias, mei exerci tamquam euripidis cu.</p>
+                                <h3 className="text-2xl font-bold tracki sm:text-3xl dark:text-gray-50">Virtual Reality Experiences</h3>
+                                <p className="mt-3 text-lg dark:text-gray-400">Offer virtual reality experiences where guests can explore immersive digital environments related to the event theme, providing a futuristic and engaging form of decoration.</p>
                                 <div className="mt-12 space-y-12">
                                     <div className="flex">
                                         <div className="flex-shrink-0">
@@ -81,8 +81,8 @@ const Activities = () => {
                                             </div>
                                         </div>
                                         <div className="ml-4">
-                                            <h4 className="text-lg font-medium leadi dark:text-gray-50">Cibo augue offendit has ad</h4>
-                                            <p className="mt-2 dark:text-gray-400">An per velit appellantur, ut utinam minimum nominavi sit, odio nostro habemus ne nec. Ne sonet regione contentiones est.</p>
+                                            <h4 className="text-lg font-medium leadi dark:text-gray-50">Sensory Experiences</h4>
+                                            <p className="mt-2 dark:text-gray-400">Create multi-sensory decor elements such as scented flower walls, tactile fabric installations, or ambient soundscapes, stimulating guests senses and creating a more immersive atmosphere</p>
                                         </div>
                                     </div>
                                     <div className="flex">
@@ -94,8 +94,8 @@ const Activities = () => {
                                             </div>
                                         </div>
                                         <div className="ml-4">
-                                            <h4 className="text-lg font-medium leadi dark:text-gray-50">At eum ferri luptatum lobortis</h4>
-                                            <p className="mt-2 dark:text-gray-400">Te per quidam maiorum ocurreret, etiam delicatissimi usu ad. Ne has quod periculis. Te sit primis iisque efficiantur.</p>
+                                            <h4 className="text-lg font-medium leadi dark:text-gray-50">Sustainable Decor Workshops</h4>
+                                            <p className="mt-2 dark:text-gray-400">Host workshops focused on eco-friendly decoration techniques using recycled materials, natural elements, or upcycled decor items, promoting sustainability while adding a unique and environmentally conscious touch to the event.</p>
                                         </div>
                                     </div>
                                     <div className="flex">
@@ -107,14 +107,14 @@ const Activities = () => {
                                             </div>
                                         </div>
                                         <div className="ml-4">
-                                            <h4 className="text-lg font-medium leadi dark:text-gray-50">Dicunt verterem evertitur eu sea</h4>
-                                            <p className="mt-2 dark:text-gray-400">Audire principes rationibus eam an, autem nominavi luptatum per te. Sumo fabulas vim eu, sonet saperet eleifend ut vix.</p>
+                                            <h4 className="text-lg font-medium leadi dark:text-gray-50">Themed Workshops</h4>
+                                            <p className="mt-2 dark:text-gray-400">Offer themed decoration workshops such as flower arranging, candle making, or terrarium building, providing guests with new skills and tangible keepsakes from the event.</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
-                                <img src="https://i.ibb.co/BVcQTV8/IMG-20240304-125359.jpg" alt="" className="mx-auto w-full rounded-lg shadow-lg dark:bg-gray-500" />
+                            <div className="mt-10 lg:mt-10 lg:col-start-1 lg:row-start-1">
+                                <img src="https://i.ibb.co/XtnMRL8/premium-photo-1706560278061-f1911b964da7-blend-000000-blend-alpha-10-blend-mode-normal-blend-w-1-cro.jpg" alt="" className="mx-auto w-full rounded-lg md:h-[520px] shadow-lg dark:bg-gray-500" />
                             </div>
                         </div>
                     </div>
