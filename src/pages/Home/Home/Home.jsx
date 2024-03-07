@@ -4,6 +4,7 @@ import Banner from "../Banner/Banner";
 import BluePinkGallery from "../BluePinkGallery/BluePinkGallery";
 import DecorationShow from "../DecorationShow/DecorationShow";
 import DecorationsDate from "../DecorationsDate/DecorationsDate";
+import SalePercentage from "./SalePercentage/SalePercentage";
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
            <DecorationShow></DecorationShow>
            <BluePinkGallery></BluePinkGallery>
            <Activities></Activities>
+           <SalePercentage></SalePercentage>
 
            
         </div>

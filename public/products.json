@@ -1,0 +1,402 @@
+[
+    {
+      "service_id": 1,
+      "category": "bedroom",
+      "title": "Modern Wooden Bed",
+      "image": "https://i.ibb.co/HLyZz3J/IMG-20240303-212221.jpg",
+      "price": 799,
+      "sortDetails": "Elegant and sturdy wooden bed frame",
+      "longDescription": "Crafted from high-quality wood, this modern wooden bed is not only stylish but also durable. Its sleek design complements various bedroom styles, from contemporary to traditional. The platform-style frame provides excellent support for your mattress, ensuring a comfortable night's sleep. Add this bed to your bedroom for a chic and inviting atmosphere.",
+      "ServiceArea": "Available for delivery nationwide",
+      "rating": 4.5
+    },
+    {
+        "service_id": 2,
+        "category": "sofa",
+        "title": "Mid-Century Modern Sofa",
+        "image": "https://i.ibb.co/S5QC4mT/IMG-20240304-114735.jpg",
+        "price": 999,
+        "sortDetails": "Stylish mid-century modern sofa",
+        "longDescription": "Bring retro flair to your living room with this mid-century modern sofa. Its clean lines, tapered legs, and tufted backrest evoke the iconic style of the 1950s and 60s. The sturdy frame and plush cushions ensure comfort and durability. Available in a range of upholstery options to suit your decor.",
+        "ServiceArea": "Available for delivery nationwide",
+        "rating": 4
+      },
+      {
+        "service_id": 3,
+        "category": "diningTable",
+        "title": "Extendable Dining Table",
+        "image": "https://i.ibb.co/HxgTwHR/IMG-20240304-111412.jpg",
+        "price": 899,
+        "sortDetails": "Stylish extendable dining table",
+        "longDescription": "Entertain in style with this versatile extendable dining table. Its sleek design and rich finish add a touch of sophistication to any dining room. The extension leaf allows you to accommodate extra guests with ease. Crafted from solid wood, this table is built to last.",
+        "ServiceArea": "Available for delivery nationwide",
+        "rating": 4.7
+      },
+      {
+        "service_id": 4,
+        "category": "stairs",
+        "title": "Industrial Metal Stairs",
+        "image": "https://i.ibb.co/xqxxygx/IMG-20240304-111645.jpg",
+        "price": 2799,
+        "sortDetails": "Rugged industrial metal stairs",
+        "longDescription": "Add an industrial edge to your home with these rugged metal stairs. Their exposed construction and raw materials create a bold and edgy aesthetic. Crafted from sturdy metal, they are built to withstand heavy use. Whether used in a loft space or warehouse conversion, these stairs make a statement.",
+        "ServiceArea": "Available for installation nationwide",
+        "rating": 5
+      },
+
+      {
+      "service_id": 5,
+      "category": "kitchen",
+      "title": "Modern Pendant Lights",
+      "image": "https://i.ibb.co/G2v0qL3/IMG-20240304-111903.jpg",
+      "price": 199,
+      "sortDetails": "Sleek and stylish pendant lights",
+      "longDescription": "Illuminate your kitchen with style and sophistication with these modern pendant lights. Their sleek design and adjustable height make them perfect for kitchen islands or dining areas. The dimmable LED bulbs provide customizable lighting for any occasion. Whether installed individually or in a cluster, these pendant lights add a contemporary touch to your kitchen decor.",
+      "ServiceArea": "Available for delivery nationwide",
+      "rating": 4.7
+  },
+  {
+    "service_id": 6,
+    "category": "libraryRoom",
+    "title": "Wall-Mounted Bookshelf",
+    "image": "https://i.ibb.co/GM9DSq0/IMG-20240304-114851.jpg",
+    "price": 199,
+    "sortDetails": "Space-saving wall-mounted bookshelf",
+    "longDescription": "Maximize space in your library or study with this wall-mounted bookshelf. Its sleek design and open shelves provide ample storage for books, decorative items, and more. The sturdy construction ensures stability and durability. Whether mounted above a desk or next to a reading nook, this bookshelf adds both style and functionality.",
+    "ServiceArea": "Available for delivery nationwide",
+    "rating": 4.7
+},
+      
+    {
+      "service_id": 7,
+      "category": "bedroom",
+      "title": "Plush Area Rug",
+      "image": "https://i.ibb.co/D92wLhY/IMG-20240303-212049.jpg",
+      "price": 199,
+      "sortDetails": "Soft and luxurious area rug",
+      "longDescription": "Add warmth and comfort to your bedroom with this plush area rug. Its soft pile feels luxurious underfoot, providing a cozy surface for your feet. Available in a range of sizes and colors to suit your space. Whether placed beside your bed or in the center of the room, this rug adds both style and comfort to your bedroom decor.",
+      "ServiceArea": "Available for delivery nationwide",
+      "rating": 3.9
+    },
+    {
+      "service_id": 8,
+      "category": "bedroom",
+      "title": "Modern Ceiling Fan",
+      "image": "https://i.ibb.co/z8xHspH/IMG-20240303-212208.jpg",
+      "price": 249,
+      "sortDetails": "Sleek and energy-efficient ceiling fan",
+      "longDescription": "Stay cool and comfortable in your bedroom with this modern ceiling fan. Its sleek design adds a contemporary touch to any decor, while the energy-efficient motor ensures quiet operation. The included remote control allows you to adjust the fan speed and dim the lights with ease. Whether installed in a master bedroom or guest room, this ceiling fan is sure to make a statement.",
+      "ServiceArea": "Available for delivery nationwide",
+      "rating": 3.2
+    },
+    {
+      "service_id": 9,
+      "category": "bedroom",
+      "title": "Stylish Bedside Lamp",
+      "image": "https://i.ibb.co/vjSvXpK/IMG-20240304-111119.jpg",
+      "price": 579,
+      "sortDetails": "Contemporary bedside lamp",
+      "longDescription": "Illuminate your bedroom with style and functionality with this bedside lamp. Its contemporary design and adjustable brightness settings make it perfect for reading or creating a cozy atmosphere. The compact size fits neatly on any bedside table or nightstand. Add this stylish lamp to your bedroom for a touch of modern flair.",
+      "ServiceArea": "Available for delivery nationwide",
+      "rating": 4.1
+    },
+    {
+      "service_id": 10,
+      "category": "sofa",
+      "title": "L-Shaped Sectional Sofa",
+      "image": "https://i.ibb.co/r5gPPTW/IMG-20240303-212301.jpg",
+      "price": 1499,
+      "sortDetails": "Spacious and comfortable L-shaped sectional sofa",
+      "longDescription": "Create the perfect seating area in your living room with this L-shaped sectional sofa. Its spacious design offers plenty of room for family and guests to relax and unwind. Available in a range of upholstery options to suit your style and decor. Whether watching TV or entertaining guests, this sofa provides both comfort and style.",
+      "ServiceArea": "Available for delivery nationwide",
+      "rating": 3.5
+    },
+    {
+      "service_id": 11,
+      "category": "sofa",
+      "title": "Leather Recliner Sofa",
+      "image": "https://i.ibb.co/JdRWk4D/IMG-20240304-111541.jpg",
+      "price": 1899,
+      "sortDetails": "Luxurious leather recliner sofa",
+      "longDescription": "Upgrade your living room with this luxurious leather recliner sofa. Its plush cushions and reclining features offer ultimate comfort and relaxation. The built-in cup holders and storage compartments provide added convenience. Crafted from high-quality leather, this sofa adds sophistication to any space.",
+      "ServiceArea": "Available for delivery nationwide",
+      "rating": 4.7
+    },
+    {
+        "service_id": 12,
+        "category": "bedroom",
+        "title": "Cozy Nightstand",
+        "image": "https://i.ibb.co/QHwnTrZ/IMG-20240304-110943.jpg",
+        "price": 929,
+        "sortDetails": "Compact nightstand with drawers",
+        "longDescription": "Keep your nighttime essentials close at hand with this cozy nightstand. Its compact design makes it perfect for small bedrooms or tight spaces. The two drawers offer ample storage for books, glasses, and other bedside items. Available in a range of colors to suit your decor.",
+        "ServiceArea": "Available for delivery nationwide",
+        "rating": 3.3
+      },
+    {
+      "service_id": 13,
+      "category": "sofa",
+      "title": "Velvet Loveseat",
+      "image": "https://i.ibb.co/qxMy0B6/IMG-20240304-111528.jpg",
+      "price": 799,
+      "sortDetails": "Elegant velvet loveseat",
+      "longDescription": "Make a statement in your living room with this elegant velvet loveseat. Its sumptuous velvet upholstery and classic silhouette add a touch of luxury to any space. The deep seating and plush cushions provide comfort and support. Available in a range of colors to suit your style.",
+      "ServiceArea": "Available for delivery nationwide",
+      "rating": 4.4
+    },
+    {
+      "service_id": 14,
+      "category": "sofa",
+      "title": "Convertible Futon Sofa",
+      "image": "https://i.ibb.co/tLxj2gD/IMG-20240304-111325.jpg",
+      "price": 499,
+      "sortDetails": "Versatile convertible futon sofa",
+      "longDescription": "Maximize space in your living room with this versatile convertible futon sofa. Perfect for small apartments or guest rooms, it easily converts from a sofa to a bed. The tufted upholstery and sleek design add modern flair to any decor. Available in a range of colors to suit your style.",
+      "ServiceArea": "Available for delivery nationwide",
+      "rating": 3.3
+    },
+    {
+      "service_id": 15,
+      "category": "sofa",
+      "title": "Tufted Chesterfield Sofa",
+      "image": "https://i.ibb.co/Ns2gmLV/IMG-20240304-111304.jpg",
+      "price": 1299,
+      "sortDetails": "Classic tufted chesterfield sofa",
+      "longDescription": "Add timeless elegance to your living room with this classic tufted chesterfield sofa. Its rolled arms, button tufting, and nailhead trim evoke traditional charm and sophistication. The sturdy frame and plush cushions ensure comfort and durability. Available in a range of upholstery options to suit your decor.",
+      "ServiceArea": "Available for delivery nationwide",
+      "rating": 4.9
+    },
+    {
+        "service_id": 16,
+        "category": "bedroom",
+        "title": "Luxurious Bedding Set",
+        "image": "https://i.ibb.co/fnjh3P8/IMG-20240304-111146.jpg",
+        "price": 299,
+        "sortDetails": "High-quality bedding set",
+        "longDescription": "Transform your bedroom into a luxurious retreat with this bedding set. Crafted from premium cotton, it offers exceptional comfort and durability. The set includes a soft duvet cover and matching pillowcases, creating a cohesive look for your bed. Treat yourself to the ultimate in relaxation and style with this luxurious bedding set.",
+        "ServiceArea": "Available for delivery nationwide",
+        "rating": 4
+      },
+    {
+      "service_id": 17,
+      "category": "diningTable",
+      "title": "Glass Top Dining Table",
+      "image": "https://i.ibb.co/7Vs9h6f/IMG-20240304-111449.jpg",
+      "price": 699,
+      "sortDetails": "Modern glass top dining table",
+      "longDescription": "Make a statement in your dining room with this modern glass top dining table. Its sleek design and tempered glass top add a touch of elegance to any space. The sturdy metal base provides stability and support. Whether hosting dinner parties or family meals, this table is sure to impress.",
+      "ServiceArea": "Available for delivery nationwide",
+      "rating": 4.8
+    },
+    {
+      "service_id": 18,
+      "category": "diningTable",
+      "title": "Round Pedestal Dining Table",
+      "image": "https://i.ibb.co/YtjjJGG/IMG-20240304-111314.jpg",
+      "price": 599,
+      "sortDetails": "Classic round pedestal dining table",
+      "longDescription": "Add classic charm to your dining room with this round pedestal dining table. Its timeless design and sturdy construction make it a versatile addition to any decor. The pedestal base provides stability and support, while the round top allows for easy conversation and serving. Whether hosting formal dinners or casual meals, this table is sure to impress.",
+      "ServiceArea": "Available for delivery nationwide",
+      "rating": 5
+    },
+    {
+      "service_id": 19,
+      "category": "diningTable",
+      "title": "Marble Dining Table",
+      "image": "https://i.ibb.co/7Kg2Cpk/IMG-20240304-111401.jpg",
+      "price": 1299,
+      "sortDetails": "Luxurious marble dining table",
+      "longDescription": "Elevate your dining experience with this luxurious marble dining table. Its sleek design and rich marble top add a touch of elegance to any space. The sturdy base provides stability and support for years to come. Whether hosting formal dinner parties or casual meals with family, this table is sure to impress.",
+      "ServiceArea": "Available for delivery nationwide",
+      "rating": 4.9
+    },
+    {
+      "service_id": 20,
+      "category": "diningTable",
+      "title": "Counter Height Dining Table",
+      "image": "https://i.ibb.co/Tqx01Bf/IMG-20240304-111351.jpg",
+      "price": 799,
+      "sortDetails": "Compact counter height dining table",
+      "longDescription": "Maximize space in your dining area with this compact counter height dining table. Its sleek design and sturdy construction make it perfect for small kitchens or breakfast nooks. The counter height design allows for casual dining or entertaining. Whether enjoying morning coffee or hosting intimate dinners, this table is both functional and stylish.",
+      "ServiceArea": "Available for delivery nationwide",
+      "rating": 4.5
+    },
+    {
+      "service_id": 21,
+      "category": "stairs",
+      "title": "Floating Stairs",
+      "image": "https://i.ibb.co/NspbBqt/IMG-20240304-111755.jpg",
+      "price": 3499,
+      "sortDetails": "Modern floating stairs",
+      "longDescription": "Add architectural interest to your home with these modern floating stairs. Their minimalist design and open construction create a sense of lightness and space. Crafted from high-quality materials, they are both functional and stylish. Whether used indoors or outdoors, these stairs make a bold statement.",
+      "ServiceArea": "Available for installation nationwide",
+      "rating": 5
+    },
+    {
+      "service_id": 22,
+      "category": "stairs",
+      "title": "Spiral Staircase",
+      "image": "https://i.ibb.co/LxJV3Zn/IMG-20240304-111724.jpg",
+      "price": 2999,
+      "sortDetails": "Classic spiral staircase",
+      "longDescription": "Make a striking architectural statement with this classic spiral staircase. Its space-saving design and elegant curves add visual interest to any space. Crafted from durable materials, it is built to last. Whether leading to a loft space or rooftop terrace, this staircase adds both style and functionality to your home.",
+      "ServiceArea": "Available for installation nationwide",
+      "rating": 4.7
+    },
+    {
+      "service_id": 23,
+      "category": "stairs",
+      "title": "Wooden Staircase",
+      "image": "https://i.ibb.co/GpDf8hT/IMG-20240304-111817.jpg",
+      "price": 1999,
+      "sortDetails": "Traditional wooden staircase",
+      "longDescription": "Enhance the beauty of your home with this traditional wooden staircase. Its classic design and warm finish add timeless appeal to any interior. Crafted from high-quality wood, it is both durable and stylish. Whether leading to a basement or second floor, this staircase makes a charming addition to any home.",
+      "ServiceArea": "Available for installation nationwide",
+      "rating": 4.5
+    },
+    {
+      "service_id": 24,
+      "category": "stairs",
+      "title": "Glass Balustrade Stairs",
+      "image": "https://i.ibb.co/kmjSFNC/IMG-20240304-111743.jpg",
+      "price": 3999,
+      "sortDetails": "Modern glass balustrade stairs",
+      "longDescription": "Create a sleek and modern look in your home with these glass balustrade stairs. The transparent glass panels and stainless steel handrail add a touch of elegance to any interior. Crafted from high-quality materials, they are both durable and stylish. Whether used in a residential or commercial setting, these stairs make a stunning focal point.",
+      "ServiceArea": "Available for installation nationwide",
+      "rating": 4.8
+    },
+    {
+        "service_id": 25,
+        "category": "bedroom",
+        "title": "Accent Chair",
+        "image": "https://i.ibb.co/0sfNbZW/IMG-20240304-110811.jpg",
+        "price": 911,
+        "sortDetails": "Comfortable accent chair",
+        "longDescription": "Add a touch of style to your bedroom with this comfortable accent chair. Its modern design and plush cushions make it the perfect spot for reading or lounging. Available in a variety of colors to complement your decor. Whether placed in a corner or alongside your bed, this accent chair is sure to enhance your space.",
+        "ServiceArea": "Available for delivery nationwide",
+        "rating": 4.6
+      },
+    {
+      "service_id": 26,
+      "category": "kitchen",
+      "title": "Stainless Steel Appliances",
+      "image": "https://i.ibb.co/xMB1rBf/IMG-20240304-112108.jpg",
+      "price": 4999,
+      "sortDetails": "Sleek stainless steel",
+      "longDescription": "Enhance the beauty of your kitchen with this stylish glass tile backsplash. Its shimmering surface adds depth and texture to any space, while its easy-to-clean surface makes it perfect for behind stoves and sinks. Available in a range of colors and patterns to suit your decor. Whether installed in a modern or traditional kitchen, this backsplash adds a touch of elegance to your space.",
+    "ServiceArea": "Available for installation nationwide",
+    "rating": 4.6
+    },
+    {
+        "service_id": 27,
+        "category": "kitchen",
+        "title": "Kitchen Island with Seating",
+        "image": "https://i.ibb.co/z4zWZLL/IMG-20240304-112143.jpg",
+        "price": 1499,
+        "sortDetails": "Versatile kitchen island with built-in seating",
+        "longDescription": "Upgrade your kitchen with this versatile island featuring built-in seating. Its spacious countertop provides ample space for food preparation, while the built-in seating offers a cozy spot for casual dining. The storage shelves and drawers keep kitchen essentials organized and within reach. Whether cooking, eating, or entertaining, this island is a functional and stylish addition to any kitchen.",
+        "ServiceArea": "Available for delivery nationwide",
+        "rating": 4.8
+    },
+    
+    {
+        "service_id": 28,
+        "category": "bedroom",
+        "title": "Vintage Dresser",
+        "image": "https://i.ibb.co/S6ZwL51/IMG-20240304-110843.jpg",
+        "price": 599,
+        "sortDetails": "Antique-style spacious dresser",
+        "longDescription": "Bring vintage charm to your bedroom with this elegant dresser. Its antique-inspired design features intricate detailing and a rich finish. The spacious drawers provide ample storage for clothing and accessories. Crafted with care, this dresser adds character and sophistication to any bedroom decor.",
+        "ServiceArea": "Available for delivery nationwide",
+        "rating": 4.7
+      },
+    {
+        "service_id": 29,
+        "category": "kitchen",
+        "title": "Glass Tile Backsplash",
+        "image": "https://i.ibb.co/6HXMBpW/IMG-20240304-112035.jpg",
+        "price": 299,
+        "sortDetails": "Stylish glass tile backsplash",
+        "longDescription": "Enhance the beauty of your kitchen with this stylish glass tile backsplash. Its shimmering surface adds depth and texture to any space, while its easy-to-clean surface makes it perfect for behind stoves and sinks. Available in a range of colors and patterns to suit your decor. Whether installed in a modern or traditional kitchen, this backsplash adds a touch of elegance to your space.",
+        "ServiceArea": "Available for installation nationwide",
+        "rating": 4.6
+    },
+    {
+        "service_id": 30,
+        "category": "kitchen",
+        "title": "Under Cabinet Lighting",
+        "image": "https://i.ibb.co/6cQjkKY/IMG-20240304-112010.jpg",
+        "price": 599,
+        "sortDetails": "Convenient under cabinet lighting",
+        "longDescription": "Illuminate your kitchen workspace with this convenient under cabinet lighting. Its slim design and easy installation make it perfect for adding task lighting to countertops and work surfaces. The energy-efficient LED bulbs provide bright, shadow-free illumination for cooking and food preparation. Whether installed in a new kitchen or added to an existing one, this under cabinet lighting enhances functionality and style.",
+        "ServiceArea": "Available for installation nationwide",
+        "rating": 4.5
+    },
+    {
+        "service_id": 31,
+        "category": "kitchen",
+        "title": "Smart Refrigerator",
+        "image": "https://i.ibb.co/Jr2CLFQ/IMG-20240304-111831.jpg",
+        "price": 2999,
+        "sortDetails": "Advanced smart refrigerator",
+        "longDescription": "Upgrade your kitchen with this advanced smart refrigerator. Its Wi-Fi connectivity and touchscreen interface allow you to access recipes, stream music, and manage groceries with ease. The built-in cameras let you see what's inside without opening the door, reducing energy consumption. Whether cooking, entertaining, or managing your household, this smart refrigerator is a must-have for any modern kitchen.",
+        "ServiceArea": "Available for delivery nationwide",
+        "rating": 4.9
+    },
+    {
+        "service_id": 32,
+        "category": "libraryRoom",
+        "title": "Leather Recliner Chair",
+        "image": "https://i.ibb.co/WKKLFTB/IMG-20240304-114936.jpg",
+        "price": 899,
+        "sortDetails": "Comfortable leather recliner chair",
+        "longDescription": "Create a cozy reading nook with this comfortable leather recliner chair. Its plush cushions and reclining feature offer ultimate comfort and relaxation. The classic design and rich leather upholstery add sophistication to any space. Whether placed in a library or living room, this chair is sure to become your favorite spot.",
+        "ServiceArea": "Available for delivery nationwide",
+        "rating": 4.8
+    },
+    {
+        "service_id": 33,
+        "category": "libraryRoom",
+        "title": "Antique Globe",
+        "image": "https://i.ibb.co/LJZL0wT/IMG-20240304-114947.jpg",
+        "price": 299,
+        "sortDetails": "Decorative antique globe",
+        "longDescription": "Add a touch of vintage charm to your library or study with this decorative antique globe. Its detailed map and elegant stand make it a striking accent piece. The sturdy construction ensures durability for years to come. Whether displayed on a desk or bookshelf, this globe adds character to any room.",
+        "ServiceArea": "Available for delivery nationwide",
+        "rating": 4.5
+    },
+    {
+        "service_id": 34,
+        "category": "libraryRoom",
+        "title": "Reading Floor Lamp",
+        "image": "https://i.ibb.co/TLbVJV6/IMG-20240304-114832.jpg",
+        "price": 149,
+        "sortDetails": "Adjustable reading floor lamp",
+        "longDescription": "Illuminate your reading corner with this adjustable floor lamp. Its sleek design and adjustable arm make it perfect for reading or studying. The integrated LED light provides bright, energy-efficient illumination. Whether placed next to a chair or sofa, this lamp enhances your reading experience.",
+        "ServiceArea": "Available for delivery nationwide",
+        "rating": 4.6
+    },
+    {
+        "service_id": 35,
+        "category": "libraryRoom",
+        "title": "Cozy Bean Bag Chair",
+        "image": "https://i.ibb.co/vhX9jzY/IMG-20240304-114901.jpg",
+        "price": "$99",
+        "sortDetails": "Comfortable bean bag chair",
+        "longDescription": "Create a casual and comfortable seating area with this cozy bean bag chair. Its soft, durable fabric and supportive design make it perfect for lounging or reading. Available in a range of colors to suit your decor. Whether placed in a library or dorm room, this bean bag chair adds fun and relaxation to any space.",
+        "ServiceArea": "Available for delivery nationwide",
+        "rating": 3.4
+    },
+    {
+        "service_id": 36,
+        "category": "bedroom",
+        "title": "Chic Floor Mirror",
+        "image": "https://i.ibb.co/4ZPrcgx/IMG-20240304-111032.jpg",
+        "price": 849,
+        "sortDetails": "Full-length floor mirror",
+        "longDescription": "Create a sense of space and light in your bedroom with this chic floor mirror. Its full-length design allows you to check your outfit from head to toe. The sleek frame adds a touch of modern elegance to any decor. Whether placed against a wall or leaned against a closet door, this mirror is a stylish addition to your bedroom.",
+        "ServiceArea": "Available for delivery nationwide",
+        "rating": 3
+      }
+    ]
+    
