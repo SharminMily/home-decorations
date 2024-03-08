@@ -9,9 +9,9 @@ const DecorationShow = () => {
 
 		<div className="p-6 pb-12 m-4 mx-auto -mt-16 space-y-6 lg:max-w-2xl sm:px-10 sm:mx-12 lg:rounded-md bg-gray-900 shadow-2xl hover:shadow-slate-300">
 			<div className="space-y-2">
-				<a rel="noopener noreferrer" href="#" className="inline-block text-2xl font-semibold sm:text-3xl">The Best Activewear from the Home Decorations Sale</a>
+				<a rel="noopener noreferrer" href="#" className="inline-block text-2xl no-underline font-semibold sm:text-3xl text-gray-200">The Best Activewear from the Home Decorations Sale</a>
 				<p className="text-xs text-gray-400">By
-					<a rel="noopener noreferrer" href="#" className="text-xs hover:underline">Leroy Jenkins</a>
+					<a rel="noopener noreferrer" href="#" className="text-xs hover:underline no-underline text-gray-400">Leroy Jenkins</a>
 				</p>
 			</div>
 			<div className="text-gray-100">

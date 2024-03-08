@@ -19,17 +19,16 @@ const AllServicesCard = ({ service }) => {
         <div>
 
             <div className=" bg-gray-900 md:mb-10 text-gray-100 border-2 border-violet-800 rounded-xl shadow-xl shadow-slate-600">
-                <img src={image} alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
+                <img src={image} alt="" className="object-cover object-center w-full rounded-t-md h-60 dark:bg-gray-500" />
                 <div className="flex flex-col justify-between p-6 space-y-">
-                    <div className="space-y-2">
+                    <div className="space-y-">
 
                   <div className="flex justify-between pb-2">
-                  <h2 className="text-3xl font-semibold text-violet-300">{category}</h2>
+                  <h2 className="text-2xl font-semibold text-violet-300">{category}</h2>
                     <h2 className="text-2xl text-violet-300 font-semibold ">${price} </h2>
                   </div>
-                        <h2 className="text-3xl w-max font-semibold 0 tracki">{title}</h2>
-                        <p className="text-gray-100">{sortDetails}</p>
-                                              
+                        <h2 className="text-2xl w-max font-semibold 0 tracki ">{title}</h2>
+                        <p className="text-sm mb-0 text-gray-400">{sortDetails}</p>                                        
                                               
                         <ReactStars
                             count={5}
@@ -45,10 +44,10 @@ const AllServicesCard = ({ service }) => {
                         />
                     </div>
 
-                    <button type="button" className="flex mt-0 items-center bg-gradient-to-br from-violet-600 via-violet-300 to-violet-600 justify-center w-full p-2 font-semibold  hover:bg-gradient-to-bl rounded-md text-xl text-black ">More Details</button>
+                    <button type="button" className="flex mt-0 items-center bg-gradient-to-br from-violet-600 via-violet-300 to-violet-600 justify-center w-full p-1 font-semibold  hover:bg-gradient-to-bl rounded-md text-xl text-black ">More Details</button>
 
                 </div>
-            </div>
+            </div>         
 
         </div>
     );

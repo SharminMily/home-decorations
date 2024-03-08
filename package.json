@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@coreui/coreui": "^4.3.2",
+    "@coreui/react": "^4.11.1",
     "firebase": "^10.8.1",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",

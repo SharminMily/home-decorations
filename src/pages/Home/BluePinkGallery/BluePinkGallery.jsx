@@ -1,7 +1,7 @@
 const BluePinkGallery = () => {
     return (
         <div>
-            <h1 className="md:text-4xl text-2xl py-10 font-bold text-center uppercase"><span className="text-violet-500">Blue</span><span className="text-pink-500"> Pink</span> <span className="text-violet-500 font-bold">Gallery</span></h1>
+            <h1 className="md:text-4xl text-2xl pb-4 font-bold text-center uppercase"><span className="text-violet-600">Blue</span><span className="text-pink-500"> Pink</span> <span className="text-violet-600 font-bold">Gallery</span></h1>
             <section className="py-6 bg-gray-800 text-gray-50">
                 <div className="container grid grid-cols-2 gap-4 mx-auto md:grid-cols-4 p-10">
 
