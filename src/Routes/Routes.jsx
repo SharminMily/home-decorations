@@ -7,6 +7,7 @@ import AllServices from "../pages/AllServices/AllServices/AllServices";
 import Login from "../pages/LoginRegister/Login/Login";
 import Register from "../pages/LoginRegister/Register/Register";
 import AllServicesCard from "../pages/AllServices/AllServices/AllServicesCard";
+import SingleCard from "../pages/AllServices/SingleCard/SingleCard";
 
 const router = createBrowserRouter([
     {
@@ -29,7 +30,12 @@ const router = createBrowserRouter([
             element: <AllServicesCard></AllServicesCard>,        
                
         },
-        
+        {
+            path: "/service/:id",
+            element: <SingleCard></SingleCard>,           
+            loader: ({ params }) => fetch(`http://localhost:5000/allServices/${params.id}`)
+          },                 
+      
       ]
       
     },
