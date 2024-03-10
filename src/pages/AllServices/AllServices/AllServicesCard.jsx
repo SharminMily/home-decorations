@@ -54,7 +54,7 @@ const AllServicesCard = ({ service }) => {
               type="button"
               className="flex mt-0 items-center bg-gradient-to-br from-violet-600 via-violet-300 to-violet-600 justify-center w-full p-1 font-semibold  hover:bg-gradient-to-bl rounded-md text-xl text-black "
             >
-              More Details
+              Services Details
             </button>
           </Link>
         </div>

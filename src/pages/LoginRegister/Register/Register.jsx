@@ -44,19 +44,19 @@ const Register = () => {
                     <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
                         <div>
                             <label className="text-sm">Full name</label>
-                            <input id="name" type="text" {...register("name", { required: true })} placeholder="type your name" className="w-full p-3 rounded" />
+                            <input id="name" type="text" {...register("name", { required: true })} placeholder="type your name" className="w-full p-3 rounded text-black" />
                         </div>
                         <div>
                             <label className="text-sm">Email</label>
-                            <input {...register("email", { required: true })} type="email" placeholder="type your Email" className="w-full p-3 rounded " />
+                            <input {...register("email", { required: true })} type="email" placeholder="type your Email" className="w-full p-3 rounded  text-black" />
                         </div>
                         <div>
                             <label className="text-sm ">Password</label>
-                            <input {...register("password", { required: true })} type="password" placeholder="type your Password" className="w-full text-black p-3 rounded " />
+                            <input {...register("password", { required: true })} type="password" placeholder="type your Password" className="w-full text-black p-3 rounded text-black" />
                         </div>
                         <div>
                             <label className="text-sm">Photo URL</label>
-                            <input {...register("text", { required: true })} type="text" placeholder="type your image URL" className="w-full p-3 rounded" />
+                            <input {...register("text", { required: true })} type="text" placeholder="type your image URL" className="w-full p-3 rounded text-black" />
                         </div>
 
                         <button type="submit" className="w-full p-3 text-sm font-bold tracki uppercase rounded bg-violet-400 text-gray-900">Sign up</button>
