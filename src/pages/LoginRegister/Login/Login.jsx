@@ -1,12 +1,18 @@
+/* eslint-disable no-unused-vars */
 import { useContext } from "react";
 import { useForm } from "react-hook-form";
 import { AuthContext } from "../../../Provider/AuthProvider";
 import Swal from "sweetalert2";
 import SocialAccount from "../SocialAccount/SocialAccount";
-import { useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Login = () => {
   const { signIn } = useContext(AuthContext);
+
+  const navigate = useNavigate();
+  const location = useLocation();
+  const from = location.state?.from?.pathname|| "/";
+
 
   // eslint-disable-next-line no-unused-vars
   const {
@@ -16,7 +22,7 @@ const Login = () => {
     formState: { errors },
   } = useForm();
 
-  const navigate = useNavigate();
+
 
   const onSubmit = (data) => {
     console.log(data);
@@ -34,7 +40,9 @@ const Login = () => {
       showConfirmButton: false,
       timer: 1500,
     });
-    navigate("/");
+
+    navigate(from, {replace: true});
+   
   };
 
   return (

@@ -33,7 +33,7 @@ const PopularServicesCard = ({ service }) => {
 
   return (
     <div>
-      <div className=" bg-gray-900 md:mb-10 text-gray-100 border-2 border-violet-800 rounded-xl shadow-xl shadow-slate-600">
+      <div className=" bg-gray-900 md:mb-10 text-gray-100 border-2 border-violet-800 rounded-xl shadow-2xl hover:shadow-violet-400 shadow-slate-600">
         <img
           src={image}
           alt=""

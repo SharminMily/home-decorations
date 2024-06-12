@@ -1,9 +1,10 @@
 /* eslint-disable no-unused-vars */
 import { useLoaderData } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const SingleCard = () => {
   const service = useLoaderData();
-  console.log(service);
+  // console.log(service);
 
   const {
     _id,
@@ -17,6 +18,52 @@ const SingleCard = () => {
     longDescription,
     ServiceArea,
   } = service;
+
+  const addServicesArray = [];
+
+  const handleAddToServices = () => {
+      const serviceListItem = JSON.parse(localStorage.getItem('services'));
+      if (!serviceListItem) {
+        addServicesArray.push(service);
+          localStorage.setItem('services', JSON.stringify(addServicesArray))
+          Swal.fire({
+              position: "top-center",
+              icon: "success",
+              title: "service added successfully!",
+              showConfirmButton: false,
+              timer: 1500
+          });
+
+      }
+      else {
+          const isExits = serviceListItem.find((service) => service._id
+              === _id
+          )
+          if (!isExits) {
+            addServicesArray.push(...serviceListItem, service)
+              localStorage.setItem('services', JSON.stringify(addServicesArray))
+              Swal.fire({
+                  position: "top-center",
+                  icon: "success",
+                  title: "service added successfully!",
+                  showConfirmButton: false,
+                  timer: 1500
+              });
+              //    toast.success("added!", "blog added successfully!", "success");
+          }
+          else {
+              Swal.fire({
+                  icon: "error",
+                  title: "Wrong",
+                  text: "already added! No duplicate !"
+
+              });
+              //    toast.error("already added!", "No duplicate !", "error");
+          }
+      }
+
+  }
+
 
   return (
     <div>
@@ -43,7 +90,7 @@ const SingleCard = () => {
               <p className="text-base text-gray-100 pb-2">{sortDetails}</p>
               <p className="text-sm text-gray-300 pb-2"> {longDescription}</p>
 
-              <button className="mt-3 px-3 py-2 bg-violet-700 rounded-full w-full">
+              <button onClick={handleAddToServices} className="mt-3 px-3 py-2 bg-violet-700 rounded-full w-full">
                 Book Now
               </button>
             </div>

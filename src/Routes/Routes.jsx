@@ -8,45 +8,74 @@ import Login from "../pages/LoginRegister/Login/Login";
 import Register from "../pages/LoginRegister/Register/Register";
 import AllServicesCard from "../pages/AllServices/AllServices/AllServicesCard";
 import SingleCard from "../pages/AllServices/SingleCard/SingleCard";
+import PrivateRoute from "./PrivateRoute";
+import Booking from "../pages/Dashboard/Booking/Booking";
+import AddServices from "../pages/Dashboard/AddServices/AddServices";
+import UpdateServices from "../pages/Dashboard/UpdateService/UpdateServices";
 
 const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <Main></Main>,
-      errorElement: <ErrorPage></ErrorPage>,
-      children: [
-        {
-            path: "/",
-            element: <Home></Home>
-        },
-        {
-            path: "/allServices",
-            element: <AllServices></AllServices>, 
-                   
-            // loader: () => fetch(`http://localhost:5000/allProduct`)  
-        },
-        {
-            path: "/allServicesCard",
-            element: <AllServicesCard></AllServicesCard>,        
-               
-        },
-        {
-            path: "/service/:id",
-            element: <SingleCard></SingleCard>,           
-            loader: ({ params }) => fetch(`http://localhost:5000/allServices/${params.id}`)
-          },                 
-      
-      ]
-      
-    },
-    {
-        path: "/login",
-        element: <Login></Login>
-    },
-    {
-        path: "/register",
-        element: <Register></Register>
-    },
-  ]);
+  {
+    path: "/",
+    element: <Main></Main>,
+    errorElement: <ErrorPage></ErrorPage>,
+    children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+      },
+      {
+        path: "/allServices",
+        element: <AllServices></AllServices>,
+
+        // loader: () => fetch(`http://localhost:5000/allProduct `)
+      },
+      {
+        path: "/allServicesCard",
+        element: <AllServicesCard></AllServicesCard>,
+      },
+      {
+        path: "/service/:id",
+        element: (
+          <PrivateRoute>
+            <SingleCard></SingleCard>
+          </PrivateRoute>
+        ),
+        loader: ({ params }) =>
+          fetch(
+            `https://home-decorations-server.vercel.app/allServices/${params.id}`
+          ),
+      },
+
+      {
+        path: "/addServices",
+        element: (
+          <PrivateRoute>
+            <AddServices></AddServices>
+          </PrivateRoute>
+        ),
+      },
+      {
+        path: "/updateServices",
+        element: <UpdateServices></UpdateServices>,
+      },
+      {
+        path: "/booking",
+        element: (
+          <PrivateRoute>
+            <Booking></Booking>
+          </PrivateRoute>
+        ),
+      },
+    ],
+  },
+  {
+    path: "/login",
+    element: <Login></Login>,
+  },
+  {
+    path: "/register",
+    element: <Register></Register>,
+  },
+]);
 
 export default router;

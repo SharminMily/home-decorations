@@ -4,18 +4,29 @@
 import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../../Provider/AuthProvider";
+import Swal from "sweetalert2";
 
 
 const SocialAccount = () => {
 
 	const {googleSignIn } = useContext(AuthContext);
+	
 	const location = useLocation();
     const navigate = useNavigate();
+
+	const from = location.state?.from?.pathname|| "/";
 
 	const handleGoogle = () => {  
         googleSignIn()
         .then(result => {
-            console.log(result.user);
+            // console.log(result.user);
+			Swal.fire({
+                position: "top-end",
+                icon: "success",
+                title: "Your work has been saved",
+                showConfirmButton: false,
+                timer: 1500
+              })            
             // const userInfo = {
             //     email: result.user?.email,
             //     name: result.user?.displayName,
@@ -26,7 +37,8 @@ const SocialAccount = () => {
             //     console.log(res.data);
             //     navigate('/')
             // })
-			navigate('/')
+			
+			navigate(from, {replace: true});
         })
 
 	}

@@ -1,5 +1,6 @@
 
 import Activities from "../Activities/Activities";
+import Members from "../AllMembers/Members";
 import Banner from "../Banner/Banner";
 import BluePinkGallery from "../BluePinkGallery/BluePinkGallery";
 import DecorationShow from "../DecorationShow/DecorationShow";
@@ -17,8 +18,9 @@ const Home = () => {
            
            <PopularServices></PopularServices>
 
-           <BluePinkGallery></BluePinkGallery>
            <Activities></Activities>
+           <Members></Members>
+           <BluePinkGallery></BluePinkGallery>
            <SalePercentage></SalePercentage>
 
            

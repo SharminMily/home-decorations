@@ -4,7 +4,8 @@ import { useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { FaStarHalfAlt } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+import { Link, Navigate } from "react-router-dom";
+import Swal from "sweetalert2";
 
 const AllServicesCard = ({ service }) => {
   const {
@@ -23,6 +24,9 @@ const AllServicesCard = ({ service }) => {
   const ratingChanged = (newRating) => {
     console.log(newRating);
   };
+
+
+  // 
 
   return (
     <div>

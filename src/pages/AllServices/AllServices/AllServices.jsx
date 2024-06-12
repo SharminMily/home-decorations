@@ -6,18 +6,25 @@ const AllServices = () => {
   const [services, setServices] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/allServices")
+    fetch("https://home-decorations-server.vercel.app/allServices")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
 
-  console.log(services);
+  // console.log(services);
 
   const [isSee, setIsSee] = useState(false);
 
   return (
     <div>
-      <h1 className="text-center pt-4"> Our All <span className="text-violet-700 font-semibold"> services</span> here</h1>
+      <h1 className="text-center pt-4">
+        {" "}
+        Our All <span className="text-violet-700 font-semibold">
+          {" "}
+          services
+        </span>{" "}
+        here
+      </h1>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 mt-10 md:p-8 p-6">
         {/* {services.map((service) => (
           <AllServicesCard
@@ -57,17 +64,15 @@ const AllServices = () => {
       </div> */}
 
       <div className="text-center mb-4">
-        {
-        services.length > 4 && <button onClick={()=>setIsSee(!isSee)}  className='px-7 py-3 bg-violet-700  text-white rounded-full mx-auto block'> {isSee ? "See less" : "See All"} </button>   
-                } 
-        {/* {services.length > 6 && !isSee && (
+        {services.length > 4 && (
           <button
             onClick={() => setIsSee(!isSee)}
-            className="p-3 bg-violet-600 text-white rounded-lg mx-auto block"
+            className="px-7 py-3 bg-violet-700  text-white rounded-full mx-auto block"
           >
-            See All
+            {" "}
+            {isSee ? "See less" : "See All"}{" "}
           </button>
-        )} */}
+        )}
       </div>
     </div>
   );

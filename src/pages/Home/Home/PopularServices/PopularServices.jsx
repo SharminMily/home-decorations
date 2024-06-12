@@ -5,12 +5,13 @@ import PopularServicesCard from "./PopularServicesCard";
 const PopularServices = () => {
   const [services, setServices] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/allServices")
+   
+    fetch("https://home-decorations-server.vercel.app/allServices")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
 
-  console.log(services);
+  // console.log(services);
   return (
     <div>
       <h1 className="text-center font-bold">
@@ -28,7 +29,7 @@ const PopularServices = () => {
         to="/allServices"
         className="flex justify-end items-end no-underline mx-10"
       >
-        <button className="self-center md:px-8 px-4 md:py-3 py-2 font-semibold rounded bg-violet-500 text-white">
+        <button className="self-center md:px-8 px-4 md:py-3 py-2 font-semibold rounded bg-violet-500 text-white hover:bg-gray-800">
           See All
         </button>
       </Link>
